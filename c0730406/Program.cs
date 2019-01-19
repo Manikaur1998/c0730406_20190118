@@ -17,7 +17,6 @@ namespace c0730406
                 StudentInformation Steve = new StudentInformation("Steve", 3.3, 18);
                 StudentInformation Cindy = new StudentInformation("Cindy", 2.3, 12);
 
-
                 var StudentList = new List<StudentInformation>();
 
                 StudentList.Add(Mary);
