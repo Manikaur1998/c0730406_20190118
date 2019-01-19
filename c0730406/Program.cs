@@ -10,6 +10,8 @@ namespace c0730406
     {
         static void Main(string[] args)
         {
+            int i = 2;
+            int g = 9;
         }
     }
 }
