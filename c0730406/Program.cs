@@ -14,6 +14,7 @@ namespace c0730406
             int g = 9;
             int o = 9;
             int a = 9;
+            int C = 9;
             int c = 8;
         }
     }
