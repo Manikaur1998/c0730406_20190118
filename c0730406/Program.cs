@@ -10,12 +10,25 @@ namespace c0730406
     {
         static void Main(string[] args)
         {
-            int i = 2;
-            int g = 9;
-            int o = 9;
-            int a = 9;
-            int C = 9;
-            int c = 8;
+            StudentInformation _Mary = new StudentInformation("Mary" , 3.8 , 20);
+            StudentInformation _john = new StudentInformation("john" , 3.8 , 20);
+            StudentInformation _Mark = new StudentInformation("Mark", 3.8 , 20);
+            StudentInformation _Steve= new StudentInformation("Steve", 3.8 , 20);
+            StudentInformation _Cindy = new StudentInformation("Cindy" , 3.8 , 20);
+            Console.ReadLine();
+          }
+    }
+    class StudentInformation
+    {
+        public string name;
+
+        public double GPA;
+        public int attendence;
+        public StudentInformation(string aName, double aGPA, int dAttendence)
+        {
+            name = aName;
+            GPA = aGPA;
+            attendence = dAttendence;
         }
     }
 }
